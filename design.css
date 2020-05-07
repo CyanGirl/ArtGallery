@@ -54,20 +54,20 @@ img{
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content: space-evenly;
-	background-image:linear-gradient(180deg,#0B6176,#2A2727);
+	background-image:linear-gradient(180deg,#0B6176,white);
 }
 form, h2{
 	text-align:center;
 }
 form,body{
-background-image:linear-gradient(180deg,#3166D0,#2A2727) ;
-color:white; 
+background-image:linear-gradient(180deg, #99ccff,white) ;
+color:black; 
 }
 #start,h2{
-color:#D6CB1F;}
+color:blue;}
 	
 #types,#video,#photos{
-	background-image:linear-gradient(180deg,#1D166B,#0B6176) ;
+	background-image:linear-gradient(180deg,#0B6176,white) ;
 }
 @media(max-width:500px){
 	h1{ font-size:20px;
