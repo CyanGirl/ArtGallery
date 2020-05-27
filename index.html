@@ -6,69 +6,74 @@
 	</head>
 	
 	<header id="header">
-		<h1><img id="header-img" src="logo2.jfif" alt="LOGO"><a href="https://www.youtube.com/channel/UCrswAganzaps3DQ4hSA-_eA" >ARTS BY BOSE</a></h1>
-
 		<nav id="nav-bar">
-		<ul>
-			<div class="nav-link"><a href="#types"><strong>Types of Arts</strong>  </a></div>
-			<div class="nav-link"><a href="#video"><strong>Tutorial</strong>    </a></div>
-			<div class="nav-link"><a href="#photos"><strong>Art Works</strong>    </a></div>
-
-			</ul>
-		</nav>
-	</header>
-	<body>
+			<ul>
+				<div class="nav-link"><a href="#types"><strong>Types of Arts</strong>  </a></div>
+				<div class="nav-link"><a href="#video"><strong>Tutorial</strong>    </a></div>
+				<div class="nav-link"><a href="#photos"><strong>Art Works</strong>    </a></div>
+				<div class="nav-link"><a href="#connect"><strong>Connect</strong>    </a></div>
+				
+				</ul>
+			</nav>
+		</header>
+				
 	
+	<main>
+	<div id="first">
+		<div id="logo">
+			<br><br><h1><img id="header-img" src="images/logo2.jfif" alt="LOGO">
+			ARTS BY BOSE</h1>
+			</div>
+
 	<form id="form" action="https://www.freecodecamp.com/email-submit">
-		<h2> Welcome to my Gallery </h2>
+		<br><br><h2> Welcome to my Gallery </h2>
 		<label for="email">Want to get notified for new Art Works!</label>
-			<br><input id="email" type="email" placeholder="Enter email ID">
+			<br><br><input class="opac" id="email" type="email" placeholder="Enter email ID">
 		<br><br><label for="more">Want to see something else?</label><br>
-			<textarea id="more" rows="3" cols="40" placeholder="Tell us!"></textarea>
-	<br><button id="submit" type="submit">Submit</button>
+			<br><textarea id="more" class="opac" rows="3" cols="40" placeholder="Tell us!"></textarea>
+	<br><br><button id="submit" type="submit">Submit</button>
 	</form>
 	
-	<h2 id="Start">Let's start exploring!</h2>
-	
+	<br><h2 id="Start">Let's start exploring!</h2>
+	</div>
 		<br><h2> Types of Arts </h2>
-		<div id="types">
-		<div id="variants">
+	<ul id="types">
+		<div class="variants">
 		<h3> Sketch : </h3>
-		<img src="sketch.jpg" id="thumbs">
-		<p> Drawn with pencil and eraser. Have also used blending stumps and other materials to give proper shapes.</p>
+		<p>Drawn with pencil and eraser. Have also used blending stumps and other materials to give proper shapes.</p>
 		</div>
-		<div id="variants">
+		<div class="variants">
 		<h3>Pastel Colour :</h3>
-		<img src="background.jfif" id="thumbs">
 		<p>Drawing with wax or pastel colors. Have also used blending stumps and dther matrrials to give proper shapes.</p>
 		</div>
-		<div id="variants">
+		<div class="variants">
 		<h3>Origami :</h3>
-		<img src="origami.jfif" id="thumbs">
 		<p>These are the things which are made from paper and folding of it. Various structuresz can be made from papers and thus be given shapes.</p>
 		</div>
-	</div>
-	
+	</ul>
+
 	<div id="video">
 		<br><h2>Tutorial</h2>
-			<p>The following contains a glance of a drawing done by me. Click here<a href="https://youtu.be/W6mHHwencJk">to view full video</a>
+			<p>The following contains a glance of a drawing done by me. Click here  <a href="https://youtu.be/W6mHHwencJk">to view full video</a>
 </p>
-			<video src="video.mp4" alt="Video snap" controls>
-	</div>
+			<div id="centre">
+			<video src="images/video.mp4" alt="Video snap" controls>
+	</div></div>
 	
-		<br><br><h2>Art Works</h2>
+		<br><br>
+		<div class="full"><br><h2>Art Works</h2>
 	<div id="photos">
-		<div><figure><img src="kohli.jfif"><figcaption>A potrait of Virat Kohli</figcaption></figure> </div>
-		<div><figure><img src="carry.jfif"><figcaption>A potrait of Carry Minati</figcaption></figure></div>
-		<div><figure><img src="pastel.jfif"><figcaption>Color pastel</figcaption></figure></div>
-		<div><figure><img src="doctr.jfif"><figcaption>Doctor amidst Covid19</figcaption></figure></div>
-		<div><figure><img src="color2.jfif"><figcaption>Colourful Drawing</figcaption></figure></div>
-		<div><figure><img src="sketch3.jfif"><figcaption>Potrait of a Girl</figcaption></figure></div>
+		<div><figure><img src="images/kohli.jfif" class="small"><figcaption>A potrait of Virat Kohli</figcaption></figure> </div>
+		<div><figure><img src="images/carry.jfif" class="small"><figcaption>A potrait of Carry Minati</figcaption></figure></div>
+		<div><figure><img src="images/pastel.jfif" class="small"><figcaption>Color pastel</figcaption></figure></div>
+		<div><figure><img src="images/doctr.jfif" class="small"><figcaption>Doctor amidst Covid19</figcaption></figure></div>
+		<div><figure><img src="images/color2.jfif" class="small"><figcaption>Colourful Drawing</figcaption></figure></div>
+		<div><figure><img src="images/sketch3.jfif" class="small"><figcaption>Potrait of a Girl</figcaption></figure></div>
 	</div>	
-
-	</body>
+</div>
+</main>
 	
-	<footer>
+	<footer id="connect">
 		<h4>Contact for more information.<a href="https://www.youtube.com/channel/UCrswAganzaps3DQ4hSA-_eA">Here</a></h4>
 		<p>This is a sample</p>
 	</footer>
