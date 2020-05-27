@@ -86,7 +86,6 @@ img:hover {
   width: 100px;
 }
 #first {
-  min-height: 90vh;
   background-image: url("images/pink.jpg");
   background-size: 100%;
   width: 80vw;
