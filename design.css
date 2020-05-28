@@ -41,11 +41,11 @@ ul {
   margin: auto;
 }
 #video {
-  width: 50vw;
+  width: 80vw;
   margin: auto;
+  background-image: url("images/pink.jpg");
 }
 video {
-  width: auto;
   height: 300px;
 }
 #centre {
@@ -60,7 +60,7 @@ img {
 img:hover {
   transition-delay: 0.3s;
   transform: scale(2.5);
-  box-shadow: 5px 5px 10px 10px rgb(108, 243, 243);
+  box-shadow: 5px 5px 10px 10px purple;
 }
 .variants {
   border: 2px solid rgb(102, 95, 194);
@@ -105,7 +105,10 @@ h4 {
 }
 #nav-bar {
   background-color: pink;
-  opacity: 0.7;
+
+  height: 50px;
+  position: fixed;
+  width: 100%;
 }
 h1,
 h2,
@@ -116,8 +119,9 @@ h3 {
 body {
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-image: url("images/hey5.jpg");
+  background-image: url("images/purple.jpg");
   background-size: 100%;
+  mix-blend-mode: color;
 }
 
 h1 {
